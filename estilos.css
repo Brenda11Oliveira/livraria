@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #789afa; /* Define a cor de fundo */
+    background-color: #7e9ef8 ; /* Define a cor de fundo */
     color: #000000; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 1rem; /* Define um espaçamento interno */
@@ -44,7 +44,7 @@ main {
     width: calc(33.33% - 20px); /* 33.33% - 40px */
     margin: 10px; /* Define um espaçamento externo */
     padding: 20px; /* Define um espaçamento interno */
-    background-color: #bad0f8; /* Define a cor de fundo */
+    background-color: #afc9f8; /* Define a cor de fundo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
     text-align: center; /* Centraliza o texto */
     float: left; /* Faz com que os elementos fiquem na mesma linha */
@@ -70,8 +70,37 @@ main {
 }
 
 footer {
-    background-color: #7195f7;
+    background-color: #7e9ef8;
     color: #000000;
     text-align: center;
     padding: 1rem;
+}
+
+
+nav ul li {
+    padding: 6px 12px;
+    transition: all 1s ease;
+}
+
+nav ul li:hover {
+    border-radius: 8px;
+    border-color: #bfcffa;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+/* Design Responsivo */
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* 50% - 40px */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
 }
